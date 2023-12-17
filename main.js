@@ -42,7 +42,7 @@ btnRestart.onclick = () => {
   arrayGame = ["", "", "", "", "", "", "", "", ""];
   itemsEl.forEach((i) => {
     i.style.color = "black";
-    i.style.backgroundColor = "#aaa";
+    i.style.backgroundColor = "white";
     i.innerHTML = "";
   });
   runGame = true;
